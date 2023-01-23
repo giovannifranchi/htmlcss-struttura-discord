@@ -107,6 +107,10 @@ debug
     height: 900px;
 }
 
+.debug .footer-top > * {
+    height: 580px;
+}
+
 /* 
 -----------------
 main
@@ -140,7 +144,68 @@ main > .row:nth-child(even){
     background-color: #228b22;
 }
 
+/* 
+-----------------
+footer
+----------------- 
+*/
 
+footer {
+    background-color: #23272a;
+}
+
+footer > * {
+    border-bottom: 1px solid white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.box-acquablue{
+    width: calc(80% / 6);
+    background-color: #20b2aa;
+    border-color: white;
+}
+
+.box-red {
+    width: calc((80% / 6)*2);
+    background-color: #f08080;
+}
+
+.footer-bottom {
+    padding-top: 60px;
+}
+
+.footer-bottom-container {
+    background-color: #7fffd4;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-box {
+    background-color: #ffb6c1;
+    padding: 10px;
+}
+
+
+
+/* 
+-----------------
+void
+----------------- 
+*/
+
+.void {
+    background-color: #00000a;
+    height: 100vh;
+}
 
 
 
