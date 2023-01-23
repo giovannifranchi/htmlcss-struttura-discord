@@ -1,11 +1,99 @@
 /* 
 -----------------
 Reset
------------------
+----------------- 
 */
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* 
+-----------------
+general
+----------------- 
+*/
+
+.flex {
+    border: 1px dashed black;
+}
+
+
+/* 
+-----------------
+header
+----------------- 
+*/
+
+.header-top {
+    background-color: #add8e6;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar > * {
+    padding: 10px 0;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+    width: 60%;
+}
+
+.nav-item a {
+    color: #00000a;
+    text-decoration: none;
+}
+
+.logo-container, 
+.login-container {
+    width: 20%;
+}
+
+.logo-container {
+    padding-left: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.header-bottom {
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+
+
+.header-main-container {
+    background-color: #ee82ee;
+    width: 60%;
+}
+
+/* 
+-----------------
+debug
+----------------- 
+*/
+
+.debug .header-main-container {
+    height: 410px;
 }
