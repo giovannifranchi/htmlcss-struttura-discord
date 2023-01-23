@@ -97,3 +97,50 @@ debug
 .debug .header-main-container {
     height: 410px;
 }
+
+.debug .row .box-blue, 
+.box-pink {
+    height: 500px;
+}
+
+.debug .row .box-green {
+    height: 900px;
+}
+
+/* 
+-----------------
+main
+----------------- 
+*/
+
+main > .row:nth-child(even){
+    background-color: #d3d3d3;
+    flex-direction: row-reverse;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.box-blue {
+    background-color: #1e90ff;
+    width: 50%;
+}
+
+.box-pink {
+    background-color: #ffc0cb;
+    width: 30%;
+}
+
+.box-green {
+    width: 80%;
+    background-color: #228b22;
+}
+
+
+
+
+
